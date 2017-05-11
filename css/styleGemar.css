@@ -1,0 +1,61 @@
+.page-Title {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/oldhits-landing-page.png") center fixed;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9999px rgba(0,0,0,.9);
+    color: #ffffff;
+    text-align: center;
+}
+
+.infosection {
+    height: 100vh;
+    background: url("../img/oldhits-landing-page.png") center fixed;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9999px rgba(0,0,0,.9);
+    color: #ffffff;
+    padding-left: 50px;
+    padding-top: 10%;
+}
+
+.downarrow {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2px;
+    position: absolute;
+    margin-top: 22%;
+}
+
+.downarrow:hover {
+    cursor: pointer;
+    color: #000000;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.info {
+    display: none;
+    position: absolute;
+    margin-top: 20%;
+}
+
+.downarrow:hover + .info {
+    display: inherit;
+}
+
+::selection{
+    color: #00e676;
+}
+
+.responsiveimage{
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+.infotekst{
+    margin-top: 10%;
+}
